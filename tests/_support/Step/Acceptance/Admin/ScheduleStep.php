@@ -15,8 +15,6 @@ class ScheduleStep extends \AcceptanceTester
         $usePage = new SchedulePage();
         $I->waitForElement($usePage->returnChoice($codeRoute), 30);
         $I->click($usePage->returnChoice($codeRoute));
-        $I->pauseExecution();
-        $I->wait(1);
         $I->click(SchedulePage::$licensePlates);
         $usePage = new SchedulePage();
         $I->waitForElement($usePage->returnChoice($licensePlates));
@@ -27,7 +25,7 @@ class ScheduleStep extends \AcceptanceTester
         $I->waitForElement($usePage->returnChoice($Time));
         $I->click($usePage->returnChoice($Time));
         $I->click(SchedulePage::$buttonAddNew);
-        $I->see(SchedulePage::$messageSaveFailed);
+        $I->see(SchedulePage::$messageSaveSuccess);
 
 
     }

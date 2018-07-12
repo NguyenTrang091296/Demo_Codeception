@@ -11,7 +11,7 @@ class SchedulePage
     public static $dayStart = ['id' => 'checkin'];
     public static $Time = ['id' => 'GIO'];
     public static $buttonAddNew = ['class' => 'btn-default'];
-    public static $messageSaveSuccess = 'Thêm thành công tuyến đường';
+    public static $messageSaveSuccess = 'Thêm thành công lộ trình';
     public static $messageSaveFailed = 'Lộ trình đã tồn tại';
 
     public static function returnChoice($value)

@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="58e67609-fa17-4273-9fab-35951da5bea9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,17 +36,44 @@
       <file leaf-file-name="RegisterStep.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="357">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScheduleStep.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ScheduleStep.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="170">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleCest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/ScheduleCest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoutePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SchedulePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -54,7 +81,7 @@
       <file leaf-file-name="RouteStep.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
+            <state relative-caret-position="797">
               <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
             </state>
           </provider>
@@ -69,20 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminLoginStep.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminLoginStep.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="acceptance.suite.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/acceptance.suite.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -92,24 +110,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminLoginCest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/AdminLoginCest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterCest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/acceptance/User/RegisterCest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -167,11 +167,9 @@
         <option value="$PROJECT_DIR$/tests/_support/Page/Admin/AdminLoginPage.php" />
         <option value="$PROJECT_DIR$/tests/_support/Page/Admin/BusPage.php" />
         <option value="$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php" />
         <option value="$PROJECT_DIR$/tests/_support/Page/User/UserBookTicketPage.php" />
         <option value="$PROJECT_DIR$/tests/_support/Page/User/RegisterPage.php" />
         <option value="$PROJECT_DIR$/tests/_support/Page/User/UserLoginPage.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/BusStep.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserLoginStep.php" />
@@ -184,6 +182,8 @@
         <option value="$PROJECT_DIR$/tests/acceptance.suite.yml" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php" />
       </list>
     </option>
@@ -454,18 +454,18 @@
       <workItem from="1530843255088" duration="6818000" />
       <workItem from="1531293896054" duration="4332000" />
       <workItem from="1531362266056" duration="4922000" />
-      <workItem from="1531369625859" duration="7665000" />
+      <workItem from="1531369625859" duration="8974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170113000" />
+    <option name="totallyTimeSpent" value="171422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18926175" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18926175" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Event Log" order="4" sideWeight="0.19669876" side_tool="true" visible="true" weight="0.016107382" />
@@ -474,7 +474,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.8033012" visible="true" weight="0.1923077" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.8033012" visible="true" weight="0.1923077" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -598,20 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/_support/Page/User/UserLoginPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -658,13 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/ScheduleCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -717,24 +696,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php">
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php">
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        <state relative-caret-position="357">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php">
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/ScheduleCest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        <state relative-caret-position="247">
+          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -745,10 +738,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php">
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="797">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
         </state>
       </provider>
     </entry>
