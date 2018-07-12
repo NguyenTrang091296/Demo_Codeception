@@ -10,17 +10,17 @@ class RouteCest
        $this->fake               = Faker\Factory::create();
        $this->username           = \Page\Admin\AdminLoginPage::$usernameValue;
        $this->password           = \Page\Admin\AdminLoginPage::$passwordValue;
-       $this->randomCodeRoute    = 'CodeRoute' .rand(1,999);
-       $this->randomWhereTo      = 'WhereTo' .rand(1,999);
-       $this->randomWhereStart   = 'WhereStart' .rand(1,999);
-       $this->randomWhereToNew   = 'WhereTo New' .rand(1,9);
-       $this->randomWhereStartNew= 'WhereStart New' .rand(1,9);
-       $this->randomLength       = rand(50,9999);
-       $this->randomTime         = rand(0,23) .':' .rand(00,59);
-       $this->randomPrice        = rand(30000,1000000);
-        $this->randomLengthNew   = rand(50,9999);
-        $this->randomTimeNew     = rand(0,23) .':' .rand(00,59);
-        $this->randomPriceNew    = rand(30000,1000000);
+       $this->randomCodeRoute    = 'CodeRoute' .$this->fake->numberBetween(1,999);
+       $this->randomWhereTo      = 'WhereTo' .$this->fake->numberBetween(1,999);
+       $this->randomWhereStart   = 'WhereStart' .$this->fake->numberBetween(1,999);
+       $this->randomWhereToNew   = 'WhereTo New' .$this->fake->numberBetween(1,9);
+       $this->randomWhereStartNew= 'WhereStart New' .$this->fake->numberBetween(1,9);
+       $this->randomLength       = $this->fake->numberBetween(50,9999);
+       $this->randomTime         = $this->fake->numberBetween(0,23) .':' .$this->fake->numberBetween(00,59);
+       $this->randomPrice        = $this->fake->numberBetween(30000,1000000);
+        $this->randomLengthNew   = $this->fake->numberBetween(50,9999);
+        $this->randomTimeNew     = $this->fake->numberBetween(0,23) .':' .$this->fake->numberBetween(00,59);
+        $this->randomPriceNew    = $this->fake->numberBetween(30000,1000000);
     }
     public function _before(AdminLoginStep $I)
     {

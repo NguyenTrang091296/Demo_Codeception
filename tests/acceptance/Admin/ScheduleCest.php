@@ -11,14 +11,14 @@ class ScheduleCest
         $this->fake                 = Faker\Factory::create();
         $this->username             = \Page\Admin\AdminLoginPage::$usernameValue;
         $this->password             = \Page\Admin\AdminLoginPage::$passwordValue;
-        $this->randomCodeRoute      = 'CodeRoute' .rand(1,999);
-        $this->randomWhereTo        = 'WhereTo' .rand(1,999);
-        $this->randomWhereStart     = 'WhereStart' .rand(1,999);
-        $this->randomLength         = rand(50,9999);
-        $this->randomTime           = rand(0,23) .':' .rand(00,59);
-        $this->randomPrice          = rand(30000,1000000);
+        $this->randomCodeRoute      = 'CodeRoute' .$this->fake->numberBetween(1,999);
+        $this->randomWhereTo        = 'WhereTo' .$this->fake->numberBetween(1,999);
+        $this->randomWhereStart     = 'WhereStart' .$this->fake->numberBetween(1,999);
+        $this->randomLength         = $this->fake->numberBetween(50,9999);
+        $this->randomTime           = $this->fake->numberBetween(0,23) .':' .rand(00,59);
+        $this->randomPrice          = $this->fake->numberBetween(30000,1000000);
         $this->randomLicensePlates  = '51A-' .random_int(1111,99999);
-        $this->randomSeats          = rand(16,60);
+        $this->randomSeats          = $this->fake->numberBetween(16,60);
         $this->searchDayStart       = '2018-08-15';
         $this->searchTime           = '8:00';
 
