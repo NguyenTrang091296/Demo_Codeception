@@ -13,9 +13,7 @@ class UserBookTicketStep extends \AcceptanceTester
         $I->click(UserBookTicketPage::$buttonSchedule);
         $I->fillField(UserBookTicketPage::$searchFile, $codeRoute);
         $I->click(UserBookTicketPage::$buttonSearch);
-//        $I->pauseExecution();
         $I->click(UserBookTicketPage::$buttonBuyTicket);
-//        $I->pauseExecution();
         $I->fillField(UserBookTicketPage::$numberOfTickets, $numberOfTickets);
         $I->click(UserBookTicketPage::$buttonSubmit);
         $I->pauseExecution();

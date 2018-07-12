@@ -10,14 +10,11 @@ class BusStep extends \AcceptanceTester
         $I = $this;
         $I->wantTo('Creat new Bus');
         $I->amOnPage(BusPage::$URL);
-
         $I->click(BusPage::$buttonNew);
         $I->fillField(BusPage::$licensePlates, $licensePlates);
         $I->fillField(BusPage::$seats, $seats);
         $I->click(BusPage::$buttonAddNew);
         $I->see(BusPage::$messageSaveSuccess);
-
-
     }
 
 }

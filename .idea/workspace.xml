@@ -2,57 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e67609-fa17-4273-9fab-35951da5bea9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/_support/Cest/AbstractCest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/_support/Helper/JoomlaDb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/_support/Page/Admin/AdminLoginPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/acceptance/Admin/AdminLoginCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/com_media/test-image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/com_media/test-image-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/com_media/test-image-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/dump.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/AcceptanceTester.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/FunctionalTester.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Helper/Acceptance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Helper/Functional.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Helper/JoomlaDb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Helper/Unit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/AdminFormPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/AdminListPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/AdminPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/BannerListPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/ContentCategoryListPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/ContentFormPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/ContentListPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/MediaFilePage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/MediaListPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/MenuFormPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/MenuListPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Administrator/UserListPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Page/Acceptance/Site/FrontPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Step/Acceptance/Administrator/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Step/Acceptance/Administrator/Banner.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Step/Acceptance/Administrator/Category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Step/Acceptance/Administrator/Content.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/Step/Acceptance/Administrator/Media.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_support/UnitTester.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/acceptance.suite.dist.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/acceptance/_bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/acceptance/administrator/components/com_content/ContentCategoryListCest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/acceptance/administrator/components/com_content/ContentListCest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/acceptance/administrator/components/com_media/MediaListCest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/acceptance/administrator/components/com_menu/MenuCest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/acceptance/administrator/components/com_users/UserListCest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/acceptance/install/InstallCest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drone-run.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functional.suite.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functional/_bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unit.suite.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Admin/AdminLoginPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/Admin/AdminLoginPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Admin/BusPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/Admin/BusPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/User/RegisterPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/User/RegisterPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/User/UserBookTicketPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/User/UserBookTicketPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/User/UserLoginPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/User/UserLoginPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/BusStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/BusStep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserLoginStep.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserLoginStep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/Admin/AdminLoginCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/Admin/AdminLoginCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/Admin/RouteCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/Admin/RouteCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/Admin/ScheduleCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/Admin/ScheduleCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/User/RegisterCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/User/RegisterCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/User/UserBookTicketCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/User/UserBookTicketCest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,20 +48,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SchedulePage.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php">
+      <file leaf-file-name="RegisterStep.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="260">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScheduleStep.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php">
+      <file leaf-file-name="UserBookTicketStep.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="16">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -101,8 +69,71 @@
       <file leaf-file-name="ScheduleCest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/ScheduleCest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="595">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserBookTicketCest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/User/UserBookTicketCest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterCest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/User/RegisterCest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminLoginPage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/AdminLoginPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLoginStep.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserLoginStep.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLoginCest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/User/UserLoginCest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusCest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/BusCest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouteCest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/RouteCest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -141,34 +172,34 @@
         <option value="$PROJECT_DIR$/tests/_support/Helper/JoomlaDb.php" />
         <option value="$PROJECT_DIR$/tests/_support/Cest/Traits/AbstractCest.php" />
         <option value="$PROJECT_DIR$/tests/_support/Page/Admin/TuyenDuongPage.php" />
-        <option value="$PROJECT_DIR$/tests/acceptance/Admin/AdminLoginCest.php" />
         <option value="$PROJECT_DIR$/tests/_support/AcceptanceTester.php" />
         <option value="$PROJECT_DIR$/tests/_support/Page/Admin/LoTrinhPage.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/TuyenDuongStep.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/Admin/TuyenDuongCest.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/LoTrinhStep.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/Admin/LoTrinhCest.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/BusStep.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/Admin/BusCest.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php" />
-        <option value="$PROJECT_DIR$/tests/acceptance/User/RegisterCest.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/AdminLoginPage.php" />
         <option value="$PROJECT_DIR$/tests/acceptance.suite.yml" />
-        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/BusPage.php" />
-        <option value="$PROJECT_DIR$/tests/acceptance/Admin/RouteCest.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Page/User/UserLoginPage.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Page/User/RegisterPage.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/User/UserLoginCest.php" />
-        <option value="$PROJECT_DIR$/tests/acceptance/User/UserBookTicketCest.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserLoginStep.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php" />
-        <option value="$PROJECT_DIR$/tests/_support/Page/User/UserBookTicketPage.php" />
+        <option value="$PROJECT_DIR$/tests/acceptance/Admin/AdminLoginCest.php" />
+        <option value="$PROJECT_DIR$/tests/acceptance/Admin/RouteCest.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/Admin/ScheduleCest.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/AdminLoginPage.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/BusPage.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Page/User/UserBookTicketPage.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Page/User/RegisterPage.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Page/User/UserLoginPage.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/BusStep.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserLoginStep.php" />
+        <option value="$PROJECT_DIR$/tests/acceptance/User/UserBookTicketCest.php" />
+        <option value="$PROJECT_DIR$/tests/acceptance/User/RegisterCest.php" />
       </list>
     </option>
   </component>
@@ -262,11 +293,11 @@
       <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
-    <option name="y" value="6" />
+    <option name="y" value="5" />
     <option name="width" value="660" />
-    <option name="height" value="713" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -278,61 +309,61 @@
         <subPane>
           <expand>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Page" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Page" type="462c0819:PsiDirectoryNode" />
               <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Step" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Step" type="462c0819:PsiDirectoryNode" />
               <item name="Acceptance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Step" type="462c0819:PsiDirectoryNode" />
@@ -340,8 +371,8 @@
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Step" type="462c0819:PsiDirectoryNode" />
@@ -349,35 +380,24 @@
               <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="acceptance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="acceptance" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_Codeception" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo_Codeception" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="acceptance" type="462c0819:PsiDirectoryNode" />
               <item name="User" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-system" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="codeception" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,7 +408,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="returnChoice&#9;null&#9;null&#10;LoTrinhPage&#9;null&#9;null&#10;AcceptanceTester&#9;FILE&#9;file://E:/THUC_TAP_TOT_NGHIEP/Project_Intern/test-system/tests/_support/AcceptanceTester.php&#10;\AcceptanceTester&#9;null&#9;null&#10;AbstractCest&#9;FILE&#9;file://E:/THUC_TAP_TOT_NGHIEP/Project_Intern/test-system/tests/_support/Cest/Traits/AbstractCest.php&#10;acceptan&#9;FILE&#9;file://E:/THUC_TAP_TOT_NGHIEP/Project_Intern/test-system/tests/acceptance.suite.yml&#10;doAdministratorLogin&#9;null&#9;null&#10;compos&#9;FILE&#9;file://E:/THUC_TAP_TOT_NGHIEP/Project_Intern/test-system/composer.json&#10;Faker\Factory::create&#9;null&#9;null&#10;Factory&#9;null&#9;null&#10;LoginPage&#9;FILE&#9;file://E:/THUC_TAP_TOT_NGHIEP/Project_Intern/test-system/tests/_support/Page/LoginPage.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/RedShop_Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -447,35 +467,37 @@
       <workItem from="1530804429986" duration="3699000" />
       <workItem from="1530809827661" duration="143000" />
       <workItem from="1530843255088" duration="6818000" />
+      <workItem from="1531293896054" duration="4332000" />
+      <workItem from="1531362266056" duration="3374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153194000" />
+    <option name="totallyTimeSpent" value="160900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2982589" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18926175" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Event Log" order="4" sideWeight="0.19669876" side_tool="true" visible="true" weight="0.048448145" />
+      <window_info anchor="right" id="Event Log" order="4" sideWeight="0.19669876" side_tool="true" visible="true" weight="0.016107382" />
       <window_info anchor="right" id="Database" order="3" weight="0.0154679045" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.8033012" visible="true" weight="0.28500825" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.8033012" visible="true" weight="0.35185185" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.32838285" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,9 +522,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/AdminLoginStep.php" />
-    <entry file="file://$PROJECT_DIR$/tests/_output/AdminLoginCest.LoginAdmin.fail.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_output/AdminLoginCest.LoginAdmin.fail.png" />
     <entry file="file://$PROJECT_DIR$/vendor/phpspec/prophecy/src/Prophecy/Comparator/Factory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -556,30 +576,14 @@
     <entry file="file://$PROJECT_DIR$/tests/_support/Helper/Functional.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_output/TuyenDuongCest.expectTo.fail.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_output/TuyenDuongCest.expectTo.fail.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/joomla-projects/joomla-browser/src/JoomlaBrowser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_output/TuyenDuongCest.expectTo.fail.png" />
+    <entry file="file://$PROJECT_DIR$/tests/_output/TuyenDuongCest.expectTo.fail.html" />
+    <entry file="file://$PROJECT_DIR$/vendor/joomla-projects/joomla-browser/src/JoomlaBrowser.php" />
     <entry file="file://$PROJECT_DIR$/tests/_support/Cest/Traits/AbstractCest.php" />
     <entry file="file://$PROJECT_DIR$/tests/_support/Cest/AbstractCest.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/_generated/AcceptanceTesterActions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="262" column="5" selection-start-line="261" selection-start-column="1" selection-end-line="262" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/_generated/AcceptanceTesterActions.php" />
     <entry file="file://$PROJECT_DIR$/codeception.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -594,34 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/AcceptanceTester.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/BusCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/User/RegisterCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/facebook/webdriver/lib/Chrome/ChromeDriver.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -631,140 +607,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance.suite.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/BusStep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/AdminLoginPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/AdminLoginCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/User/UserLoginCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Page/User/UserLoginPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="8" column="84" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserLoginStep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="294">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/BusPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php">
+    <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/RoutePage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/User/UserBookTicketCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding>
-            <element signature="e#6#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Page/User/RegisterPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Page/User/UserBookTicketPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/RouteCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="43" column="153" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="153" />
-          <folding>
-            <element signature="e#7#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/ScheduleCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="374">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/SchedulePage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="135">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Page/User/UserLoginPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Page/User/UserBookTicketPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/AdminLoginStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Page/User/RegisterPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/BusStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/AcceptanceTester.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/ScheduleStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/Admin/RouteStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserBookTicketStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/BusCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/RouteCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Page/Admin/AdminLoginPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/RegisterStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/ScheduleCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/Admin/AdminLoginCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/User/UserLoginStep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/User/UserLoginCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/User/UserBookTicketCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/User/RegisterCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
         </state>
       </provider>
     </entry>

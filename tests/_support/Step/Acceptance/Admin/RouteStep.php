@@ -39,9 +39,7 @@ class RouteStep extends \AcceptanceTester
     {
         $I = $this;
         $I->wantTo('Tìm tuyen duong vua tao!');
-       // $I->amOnPage(RoutePage::$url);
         $I->fillField(RoutePage::$buttonSearch, $codeRoute);
-        //$I->pauseExecution();
     }
     public function DeleteRoute($codeRoute)
     {
@@ -50,13 +48,7 @@ class RouteStep extends \AcceptanceTester
         $I->amOnPage(RoutePage::$url);
         $I->SearchRoute($codeRoute);
         $I->click(RoutePage::$Buttondelete);
-       // $I -> seeInFormFields(RoutePage::$MessageDelete);
         $I -> click(RoutePage::$ButtonDeleteAcept);
-        $I->pauseExecution();
-      //  $I -> see (RoutePage::$MessageDeleteSuccess);
-      //  $I->dontSee($codeRoute);
-     //   $I->seeElement(RoutePage::$MessageDeleteSuccess);
-       // $I->SearchRoute($codeRoute);
     }
 
 }

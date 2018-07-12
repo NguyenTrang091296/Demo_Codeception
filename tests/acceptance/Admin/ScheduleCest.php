@@ -36,20 +36,12 @@ class ScheduleCest
         $I->wantTo('Create new Route!');
         $I->addRoute( $this->randomCodeRoute, $this->randomWhereTo, $this->randomWhereStart, $this->randomLength, $this->randomTime, $this->randomPrice);
     }
-
     public function testBus(AcceptanceTester $I, $scenario)
     {
         $I = new \Step\Acceptance\Admin\BusStep($scenario);
         $I->wantTo('Create new Bus!');
         $I->addBus($this->randomLicensePlates, $this->randomSeats);
     }
-
-
-    /**
-     * @param LoTrinhStep $I
-     * @param $scenario
-     * @throws Exception
-     */
     public function createSchedule(ScheduleStep $I, $scenario)
     {
         $I = new  ScheduleStep($scenario);
