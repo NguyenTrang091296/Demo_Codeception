@@ -3,6 +3,13 @@ use Step\Acceptance\User\UserLoginStep as UserLoginStep;
 use Step\Acceptance\User\RegisterStep as RegisterStep;
 class UserLoginCest
 {
+    /**
+
+     * UserLoginCest constructor.
+
+     * @throws Exception
+
+     */
     public function __construct()
     {
         $this->fake                     = Faker\Factory::create();
@@ -13,16 +20,25 @@ class UserLoginCest
         $this->randomAddress            = 'ADC' .$this->fake->numberBetween(100,999);
         $this->randomPassword           = '123';
         $this->randomConfirmPassword    = '123';
-
     }
+    /**
 
+     * @param AcceptanceTester $I
+
+     * @param $scenario
+
+     */
     public function testRegister(AcceptanceTester $I, $scenario)
     {
         $I = new RegisterStep($scenario);
         $I->wantTo('Create new Account!');
         $I->register($this->randomUsername, $this->randomEmail, $this->randomPhoneNumber, $this->randomIdCustomer, $this->randomAddress, $this->randomPassword, $this->randomConfirmPassword);
     }
+    /**
 
+     * @param UserLoginStep $I
+
+     */
     public function Login(UserLoginStep $I)
     {
         $I->Login($this->randomEmail, $this->randomPassword);

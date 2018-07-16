@@ -4,7 +4,13 @@ use Page\Admin\BusPage as BusPage;
 
 class BusStep extends \AcceptanceTester
 {
+    /**
 
+     * @param $licensePlates
+
+     * @param $seats
+
+     */
     public function addBus($licensePlates, $seats)
     {
         $I = $this;

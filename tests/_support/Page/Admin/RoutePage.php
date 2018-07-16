@@ -1,6 +1,12 @@
 <?php
 namespace Page\Admin;
+/**
 
+ * Class RoutePage
+
+ * @package Page\Admin
+
+ */
 class RoutePage
 {
     public static $url = '/Admin/ADTuyenDuong';
@@ -21,5 +27,4 @@ class RoutePage
     public static $buttonAddNew = ['class' => 'btn-default'];
     public static $messageSaveSuccess = 'Thêm thành công tuyến đường';
     public static $messageEditSuccess = 'cập nhật thành công tuyến đường';
-
 }

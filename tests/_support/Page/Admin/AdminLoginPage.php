@@ -1,6 +1,12 @@
 <?php
 namespace Page\Admin;
+/**
 
+ * Class AdminLoginPage
+
+ * @package Page\Admin
+
+ */
 class AdminLoginPage
 {
     // include url of current page
@@ -15,6 +21,5 @@ class AdminLoginPage
     public static $password = ['id' => 'Password'];
     //login button
     public static $loginButton = ['xpath'=>'html/body/div/div/div[2]/div/div[2]/form/fieldset/button'];
-
 
 }

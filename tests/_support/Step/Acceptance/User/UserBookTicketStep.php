@@ -5,6 +5,13 @@ use Page\User\UserBookTicketPage as UserBookTicketPage;
 class UserBookTicketStep extends \AcceptanceTester
 {
 
+    /**
+
+     * @param $codeRoute
+
+     * @param $numberOfTickets
+
+     */
     public function BookTickets($codeRoute, $numberOfTickets)
     {
         $I = $this;
@@ -17,8 +24,6 @@ class UserBookTicketStep extends \AcceptanceTester
         $I->fillField(UserBookTicketPage::$numberOfTickets, $numberOfTickets);
         $I->click(UserBookTicketPage::$buttonSubmit);
         $I->see(UserBookTicketPage::$messageSaveSuccess);
-
-
     }
 
     public function CheckCart()

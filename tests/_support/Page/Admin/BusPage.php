@@ -1,6 +1,12 @@
 <?php
 namespace Page\admin;
+/**
 
+ * Class BusPage
+
+ * @package Page\admin
+
+ */
 class BusPage
 {
     // include url of current page
@@ -10,6 +16,4 @@ class BusPage
     public static $seats = ['id' => 'SOCHO'];
     public static $buttonAddNew = ['class' => 'btn-default'];
     public static $messageSaveSuccess = 'Thêm thành công xe khách';
-
-
 }

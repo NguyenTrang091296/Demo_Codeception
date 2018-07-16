@@ -6,6 +6,11 @@ use Step\Acceptance\Admin\AdminLoginStep as AdminLoginStep;
 
 class ScheduleCest
 {
+    /**
+
+     * ScheduleCest constructor.
+
+     */
     public function __construct()
     {
         $this->fake                 = Faker\Factory::create();
@@ -21,27 +26,51 @@ class ScheduleCest
         $this->randomSeats          = $this->fake->numberBetween(16,60);
         $this->searchDayStart       = '2018-08-15';
         $this->searchTime           = '8:00';
-
-
     }
+    /**
+
+     * @param AdminLoginStep $I
+
+     */
     public function _before(AdminLoginStep $I)
     {
         $I->loginAccount($this->username, $this->password);
     }
+    /**
 
+     * @param AcceptanceTester $I
+
+     * @param $scenario
+
+     */
        public function testRoute(AcceptanceTester $I, $scenario)
     {
-
         $I = new \Step\Acceptance\Admin\RouteStep($scenario);
         $I->wantTo('Create new Route!');
         $I->addRoute( $this->randomCodeRoute, $this->randomWhereTo, $this->randomWhereStart, $this->randomLength, $this->randomTime, $this->randomPrice);
     }
+    /**
+
+     * @param AcceptanceTester $I
+
+     * @param $scenario
+
+     */
     public function testBus(AcceptanceTester $I, $scenario)
     {
         $I = new \Step\Acceptance\Admin\BusStep($scenario);
         $I->wantTo('Create new Bus!');
         $I->addBus($this->randomLicensePlates, $this->randomSeats);
     }
+    /**
+
+     * @param ScheduleStep $I
+
+     * @param $scenario
+
+     * @throws Exception
+
+     */
     public function createSchedule(ScheduleStep $I, $scenario)
     {
         $I = new  ScheduleStep($scenario);

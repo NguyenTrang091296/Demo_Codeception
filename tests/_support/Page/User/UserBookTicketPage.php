@@ -1,9 +1,14 @@
 <?php
 namespace Page\User;
+/**
 
+ * Class UserBookTicketPage
+
+ * @package Page\User
+
+ */
 class UserBookTicketPage
 {
-
     public static $URL1 = '/';
     public static $buttonSchedule = ['xpath' => '//a[contains(@href, \'/TuyenDuong/Index\')]'];
     public static $searchFile = ['xpath' => '//input[contains(@class,\'pull-right\')]'];

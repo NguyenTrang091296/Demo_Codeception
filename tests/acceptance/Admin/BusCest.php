@@ -5,6 +5,11 @@ use Step\Acceptance\Admin\AdminLoginStep as AdminLoginStep;
 
 class BusCest
 {
+    /**
+
+     * BusCest constructor.
+
+     */
     public function __construct()
     {
         $this->fake                 = Faker\Factory::create();
@@ -14,11 +19,20 @@ class BusCest
         $this->randomSeats          = $this->fake->numberBetween(16,60);
 
     }
+    /**
+
+     * @param AdminLoginStep $I
+
+     */
     public function _before(AdminLoginStep $I)
     {
         $I->loginAccount($this->username, $this->password);
     }
+    /**
 
+     * @param BusStep $I
+
+     */
     public function createBus(BusStep $I)
     {
         $I->addBus($this->randomLicensePlates, $this->randomSeats);

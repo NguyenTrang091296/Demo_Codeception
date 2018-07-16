@@ -4,7 +4,23 @@ use Page\User\RegisterPage as RegisterPage;
 
 class RegisterStep extends \AcceptanceTester
 {
+    /**
 
+     * @param $username
+
+     * @param $email
+
+     * @param $phoneNumber
+
+     * @param $idCustomer
+
+     * @param $address
+
+     * @param $password
+
+     * @param $confirmPassword
+
+     */
     public function register($username, $email, $phoneNumber, $idCustomer, $address, $password, $confirmPassword)
     {
         $I=$this;
@@ -20,8 +36,6 @@ class RegisterStep extends \AcceptanceTester
         $I->fillField(RegisterPage::$confirmPassword, $confirmPassword);
         $I->click(RegisterPage::$buttonSubmitRegister);
         $I->see(RegisterPage::$messageSaveSuccess);
-
-
     }
 
 }

@@ -4,7 +4,21 @@ use Page\Admin\RoutePage as RoutePage;
 
 class RouteStep extends \AcceptanceTester
 {
+    /**
 
+     * @param $codeRoute
+
+     * @param $whereStart
+
+     * @param $whereTo
+
+     * @param $length
+
+     * @param $time
+
+     * @param $price
+
+     */
     public function addRoute($codeRoute, $whereStart, $whereTo, $length, $time, $price)
     {
         $I = $this;
@@ -20,6 +34,21 @@ class RouteStep extends \AcceptanceTester
         $I->click(RoutePage::$buttonAddNew);
         $I->see(RoutePage::$messageSaveSuccess);
     }
+    /**
+
+     * @param $codeRoute
+
+     * @param $whereStart
+
+     * @param $whereTo
+
+     * @param $length
+
+     * @param $time
+
+     * @param $price
+
+     */
     public function EditRoute($codeRoute, $whereStart, $whereTo, $length, $time, $price)
     {
         $I = $this;
@@ -35,12 +64,24 @@ class RouteStep extends \AcceptanceTester
         $I->click(RoutePage::$buttonEdit);
         $I->see(RoutePage::$messageEditSuccess);
     }
+    /**
+
+     * @param $codeRoute
+
+     */
     public function SearchRoute($codeRoute)
     {
         $I = $this;
         $I->wantTo('Tìm tuyen duong vua tao!');
         $I->fillField(RoutePage::$buttonSearch, $codeRoute);
     }
+    /**
+
+     * @param $codeRoute
+
+     * @throws \Exception
+
+     */
     public function DeleteRoute($codeRoute)
     {
         $I = $this;
@@ -48,7 +89,11 @@ class RouteStep extends \AcceptanceTester
         $I->amOnPage(RoutePage::$url);
         $I->SearchRoute($codeRoute);
         $I->click(RoutePage::$Buttondelete);
-        $I -> click(RoutePage::$ButtonDeleteAcept);
+        $I->waitForElementVisible(RoutePage::$buttonContinue,30);
+        $I->wantTo('Test with delete Route then accept');
+        $I->click(RoutePage::$ButtonDeleteAcept);
+        $I->wait(1);
+        $I->acceptPopup();
     }
 
 }

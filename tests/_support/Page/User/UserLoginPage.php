@@ -1,6 +1,12 @@
 <?php
 namespace Page\user;
+/**
 
+ * Class UserLoginPage
+
+ * @package Page\user
+
+ */
 class UserLoginPage
 {
     // include url of current page

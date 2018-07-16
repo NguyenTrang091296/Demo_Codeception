@@ -4,7 +4,19 @@ use Page\Admin\SchedulePage as SchedulePage;
 
 class ScheduleStep extends \AcceptanceTester
 {
+    /**
 
+     * @param $maTuyenDuong
+
+     * @param $bangSoXe
+
+     * @param $ngayDi
+
+     * @param $gioChay
+
+     * @throws \Exception
+
+     */
     public function addSchedule($codeRoute, $licensePlates, $dayStart, $Time)
     {
         $I = $this;
@@ -26,8 +38,6 @@ class ScheduleStep extends \AcceptanceTester
         $I->click($usePage->returnChoice($Time));
         $I->click(SchedulePage::$buttonAddNew);
         $I->see(SchedulePage::$messageSaveSuccess);
-
-
     }
 
 }

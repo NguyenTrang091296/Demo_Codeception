@@ -4,6 +4,13 @@ use Page\Admin\AdminLoginPage as AdminLoginPage;
 
 class AdminLoginStep extends \AcceptanceTester
 {
+    /**
+
+     * @param $user
+
+     * @param $pass
+
+     */
     public function loginAccount($user, $pass)
     {
         $I = $this;
